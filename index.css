@@ -1,0 +1,44 @@
+body{
+    background: pink;
+}
+.header p{
+    font-size: 30px;
+    color: blue;
+    align-content: center;
+}
+.header{
+    width:380px;
+    margin: auto;
+}
+.container{
+    width: 600px;
+    background: yellow;
+    margin: auto;
+    border: 20px;
+}
+.container .top{
+    display: flex;
+    justify-content: space-around;
+    border: 20px;
+}
+.container .top input{
+    margin-top: 13px;
+    height: 20px;
+}
+.container .contain .prd{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .contain .total{
+    margin-left: 300px;
+}
+.container .contain .total input{
+    height: 20px;
+    margin-top: 13px;
+}
+.container .bot{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
